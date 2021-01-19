@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgray;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/* tutti i modificatori che riguardano l'header */
+header{
+  background-color: #fff;
+}
+.logo{
+  margin-left: 10px;
+  height: 50px;
+  display: inline-block;
+}
+.title{
+  vertical-align: text-bottom;
+  font-size: 50px;
+  font-weight: 900;
+  display: inline-block;
+}
+/* tutti i modificatori che riguardano il nav */
+nav{
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+  margin: 50px 10% 0 10%;
+  height: 50px;
+}
+button{
+  margin: 10px 5px 0 5px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 6px;
+}
+#button_task{
+  margin-left: 30px;
+  border: 0;
+  background-color: rgb(71, 173, 241);
+  color: white;
+}
+#button_selection{
+  background-color: white;
+  color: lightgrey;
+  border: 1px solid lightgray;
+}
+/* tutti i modificatori che riguardano  il main */
+main{
+  background-color: white;
+  margin: 3px 10%;
+  padding: 5px;
+  border-radius: 0 0 10px 10px;
+}
+
+.list_subtitle{
+  list-style-type: none;
+  padding-left: 0
+}
+.list_title{
+  padding: 0;
+  margin-left: 50px;
+}
+.list_title > li{
+  list-style-type: ' \25BC';
+  margin: 30px 0;
+}
+.list_title h2{
+  margin: 3px 0;
+}
+.list_subtitle > li{
+  margin: 20px 0;
+}
+/* bonus */
+#test1 ul{
+  display: none;
+}
+#test1:hover ul{
+  display: block;
+}
+#test2 ul{
+  display: none;
+}
+#test2:hover ul{
+  display: block;
+}
+#test3 ul{
+  display: none;
+}
+#test3:hover ul{
+  display: block;
+}
+
+/* tutti i modificatori che riguardano i rettangoli colorati */
+.item{
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  color: white;
+}
+.item_editional{
+  background-color: rgb(71, 173, 241);
+}
+.item_q1-goals{
+  background-color: rgb(156, 114, 228);
+}
+.item_recruiting{
+  background-color: rgb(100, 192, 169);
+}
+.item_mobile{
+  background-color: rgb(242, 158, 51);
+}
+.item_website{
+  background-color: rgb(216, 99, 161);
+}
+.item_sales{
+  background-color: rgb(176, 201, 38);
+}
+/* tutti i modificatori che riguardano i check e i cross */
+.check:before{
+  content: ' \2714';
+  color: green;
+  padding: 0 2px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+.cross:before{
+  content: ' \2716';
+  color: red;
+  padding: 0 2px;
+  border: 1px solid red;
+  border-radius: 50%;
+}
